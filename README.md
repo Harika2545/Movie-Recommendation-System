@@ -5,7 +5,7 @@ This project analyzes movie metadata, genres, keywords, cast, crew, and user rat
 
 ---
 
-## 📌 Features
+##  Features
 
 ✔ Content-based recommendations using metadata  
 ✔ Collaborative filtering using Surprise SVD  
@@ -27,7 +27,7 @@ This project uses **The Movies Dataset** from Kaggle:
 > 
 ---
 
-## 🧠 How the system works
+##  How the system works
 
 ### 🔹 Content-based filtering
 - Extracts **genres, cast, crew, keywords**
@@ -43,7 +43,7 @@ This project uses **The Movies Dataset** from Kaggle:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |----------|------------|
@@ -54,5 +54,36 @@ This project uses **The Movies Dataset** from Kaggle:
 | Development | Jupyter Notebook |
 
 ---
+Installation
+
+## 1.Clone repository
+```bash
+git clone https://github.com/Harika2545/Movie-Recommendation-System.git
+cd Movie-Recommendation-System
+
+## 2.Create environemnt
+conda create -n movie_env python=3.10
+conda activate movie_env
+
+## 3.Install dependencies
+pip install pandas numpy scikit-surprise scikit-learn notebook
+
+## 4.Run Jupyter Notebook
+jupyter notebook
+
+## Run the notebook
+Movie-recommendation-System.ipynb
+
+## Outputs:
+Movie input: Avatar
+Top recommendations:
+• John Carter
+• Guardians of the Galaxy
+• Jupiter Ascending
+• Star Trek
+• Star Wars: The Force Awakens
+
+
+
 
 
