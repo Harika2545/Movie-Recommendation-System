@@ -24,3 +24,35 @@ This project uses **The Movies Dataset** from Kaggle:
 
 > ⚠ **Note:** The dataset is too large for GitHub.  
 > After downloading, place your CSV files in the project folder:
+> 
+---
+
+## 🧠 How the system works
+
+### 🔹 Content-based filtering
+- Extracts **genres, cast, crew, keywords**
+- Creates a unified **text "soup"**
+- Vectorizes using **TF-IDF / CountVectorizer**
+- Computes **cosine similarity**
+- Recommends movies with similar features
+
+### 🔹 Collaborative filtering
+- Uses **user ratings** (`ratings_small.csv`)
+- Trains **SVD model from Surprise**
+- Predicts user preferences
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Language | Python |
+| Recommendation | Surprise SVD, TF-IDF, CountVectorizer |
+| ML Libraries | scikit-learn, pandas, numpy |
+| Similarity | Cosine similarity |
+| Development | Jupyter Notebook |
+
+---
+
+
